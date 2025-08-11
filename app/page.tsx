@@ -155,7 +155,7 @@ export default function WaitlistPage() {
         <div
           className={`mb-20 transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
         >
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-center">tokenlite</h1>
+          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-center">TokenLite</h1>
         </div>
 
         {/* Main Content Grid */}
@@ -178,7 +178,7 @@ export default function WaitlistPage() {
                     </div>
                   </div>
                 </div>
-                <p className="text-gray-400 text-sm mt-3 text-center">tokenlite Demo</p>
+                <p className="text-gray-400 text-sm mt-3 text-center">TokenLite Demo</p>
               </div>
             </div>
 
@@ -201,10 +201,10 @@ export default function WaitlistPage() {
             >
               <div className="border border-gray-700 rounded-lg p-4 bg-gray-900/30">
                 <h3 className="text-sm font-medium mb-3 text-gray-300 border border-gray-600 rounded-full px-3 py-1 inline-block">
-                  What is tokenlite?
+                  What is TokenLite?
                 </h3>
                 <p className="text-gray-300 text-sm leading-relaxed">
-                  tokenlite is a powerful tool for generating professional litepaper documentation for your token projects. Create comprehensive tokenomics, whitepapers, and project documentation with ease.
+                  TokenLite is a powerful tool for generating professional litepaper documentation for your token projects. Create comprehensive tokenomics, whitepapers, and project documentation with ease.
                 </p>
               </div>
             </div>
