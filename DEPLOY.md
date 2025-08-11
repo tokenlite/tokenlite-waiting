@@ -2,6 +2,6 @@
 
 ```bash
 vercel project
-vercel link --yes --project uvex-waiting
+vercel link --yes --project tokenlite
 bun run build && vercel build --prod && vercel --prebuilt --prod
 ```

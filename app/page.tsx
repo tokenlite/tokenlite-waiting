@@ -42,7 +42,7 @@ export default function WaitlistPage() {
         },
         body: JSON.stringify({
           email: email,
-          projectName: "uv-express"
+          projectName: `${process.env.NEXT_PUBLIC_PROJECT_SLUG}` || "tokenlite"
         }),
       })
 
@@ -74,7 +74,7 @@ export default function WaitlistPage() {
               <CheckCircle className="w-20 h-20 text-green-500 mx-auto mb-6" />
               <h1 className="text-4xl md:text-6xl font-bold mb-6">You're In!</h1>
               <p className="text-xl text-gray-300 mb-8">
-                Thank you for joining the UV Express waitlist. We'll keep you updated on our progress and let you know as soon as we're ready to launch.
+                Thank you for joining the tokenlite waitlist. We'll keep you updated on our progress and let you know as soon as we're ready to launch.
               </p>
               <div className="bg-gray-900/50 border border-gray-700 rounded-lg p-6 mb-8">
                 <h3 className="text-lg font-semibold mb-2 text-orange-500">What's Next?</h3>
@@ -155,7 +155,7 @@ export default function WaitlistPage() {
         <div
           className={`mb-20 transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
         >
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-center">UV Express</h1>
+          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-center">tokenlite</h1>
         </div>
 
         {/* Main Content Grid */}
@@ -168,8 +168,8 @@ export default function WaitlistPage() {
               <div className="relative cursor-pointer group" onClick={() => setIsVideoModalOpen(true)}>
                 <div className="aspect-video bg-gray-900 rounded-lg overflow-hidden relative">
                   <img
-                    src="/placeholder.svg?height=200&width=300&text=UV+Express+in+action"
-                    alt="UV Express Demo"
+                    src="/placeholder.svg?height=200&width=300&text=tokenlite+in+action"
+                    alt="TokenLite Demo"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 flex items-center justify-center bg-black/40 group-hover:bg-black/20 transition-all duration-300">
@@ -178,7 +178,7 @@ export default function WaitlistPage() {
                     </div>
                   </div>
                 </div>
-                <p className="text-gray-400 text-sm mt-3 text-center">UV Express Demo</p>
+                <p className="text-gray-400 text-sm mt-3 text-center">tokenlite Demo</p>
               </div>
             </div>
 
@@ -189,9 +189,9 @@ export default function WaitlistPage() {
               <div className="text-center lg:text-left">
                 <h2 className="text-3xl md:text-4xl font-bold mb-2 leading-tight">hello,</h2>
                 <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">
-                  <span className="text-orange-500">smart transportation</span>
+                  <span className="text-orange-500">token generation</span>
                 </h2>
-                <p className="text-gray-400 text-base">connecting drivers and passengers seamlessly</p>
+                <p className="text-gray-400 text-base">create professional litepaper documentation</p>
               </div>
             </div>
 
@@ -201,11 +201,10 @@ export default function WaitlistPage() {
             >
               <div className="border border-gray-700 rounded-lg p-4 bg-gray-900/30">
                 <h3 className="text-sm font-medium mb-3 text-gray-300 border border-gray-600 rounded-full px-3 py-1 inline-block">
-                  What is UV Express?
+                  What is tokenlite?
                 </h3>
                 <p className="text-gray-300 text-sm leading-relaxed">
-                  UV Express is the modern way to match drivers and passengers in real time. Secure, fast, and built for
-                  convenience. Join our waitlist to be part of the future of public transport.
+                  tokenlite is a powerful tool for generating professional litepaper documentation for your token projects. Create comprehensive tokenomics, whitepapers, and project documentation with ease.
                 </p>
               </div>
             </div>

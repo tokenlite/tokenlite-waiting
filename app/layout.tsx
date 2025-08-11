@@ -10,8 +10,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "UV Express - Join the Waitlist",
-  description: "Fast. Smarter. UV Express. Connecting drivers and passengers seamlessly.",
+  title: "TokenLite - Litepaper Token Generation Tool",
+  description: "TokenLite - A powerful litepaper token generation tool for creating professional tokenomics documentation.",
     generator: 'v0.dev'
 }
 

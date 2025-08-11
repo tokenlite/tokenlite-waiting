@@ -41,10 +41,10 @@ export function VideoModal({ isOpen, onClose }: VideoModalProps) {
           <div className="w-full h-full flex items-center justify-center text-gray-400">
             <div className="text-center">
               <div className="w-24 h-24 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-white">UV</span>
+                <span className="text-2xl font-bold text-white">TL</span>
               </div>
               <p className="text-lg">Demo video coming soon...</p>
-              <p className="text-sm mt-2">Experience the future of UV Express transportation</p>
+              <p className="text-sm mt-2">Experience the power of Litepaper generation</p>
             </div>
           </div>
         </div>
